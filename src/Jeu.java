@@ -1,6 +1,6 @@
 public class Jeu {
     public static void main (String[] args){
         System.out.println("Hello World");
-
+        Bateau bateau1 = new Bateau(<"A",1>, "F", "S");
     }
 }

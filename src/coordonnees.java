@@ -1,27 +1,26 @@
 public class Coordonnees {
 
-    private int abscisse;
+    private String abscisse;
+    private int ordonnee;
 
-    private String ordonnee;
-
-    public Coordonnees(int abscisse, String ordonnee){
+    public Coordonnees(String abscisse, int ordonnee){
         this.abscisse = abscisse;
         this.ordonnee = ordonnee;
     }
 
-    public String getOrdonnee() {
+    public int getOrdonnee() {
         return ordonnee;
     }
 
-    public void setOrdonnee(String ordonnee) {
+    public void setOrdonnee(int ordonnee) {
         this.ordonnee = ordonnee;
     }
 
-    public int getAbscisse() {
+    public String getAbscisse() {
         return abscisse;
     }
 
-    public void setAbscisse(int abscisse) {
+    public void setAbscisse(String abscisse) {
         this.abscisse = abscisse;
     }
 }
