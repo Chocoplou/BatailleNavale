@@ -1,36 +1,24 @@
 public class Bateau {
 
-    private String[] coordonnees;
+    private Coordonnees coordonnees;
     private Navire modele;
-    private String orientation;
+    private Orientation orientation;
 
-    public Bateau(String coordonnes, Navire modele, String orientation){
-        this.coordonnees = getCoordonnees();
-        this.modele = Navire.getAbreviation;
-        this.orientation = getOrientation();
-    }
-
-    public String getOrientation() {
-        return orientation;
-    }
-
-    public void setOrientation(String orientation) {
+    public Bateau(Coordonnees coordonnees, Navire modele, Orientation orientation){
+        this.coordonnees = coordonnees;
+        this.modele = modele;
         this.orientation = orientation;
     }
 
-    public String getModele() {
+    public Orientation getOrientation() {
+        return orientation;
+    }
+
+    public Navire getModele() {
         return modele;
     }
 
-    public void setModele(String modele) {
-        this.modele = modele;
-    }
-
-    public String[] getCoordonnees() {
+    public Coordonnees getCoordonnees() {
         return coordonnees;
-    }
-
-    public void setCoordonnees(String[] coordonnees) {
-        this.coordonnees = coordonnees;
     }
 }

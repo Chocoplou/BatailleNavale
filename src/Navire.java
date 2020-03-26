@@ -1,4 +1,4 @@
-public enum  Navire {
+public enum Navire {
     FREGATE("F"),
     CROISEUR("C"),
     DESTROYER("D"),
@@ -7,10 +7,6 @@ public enum  Navire {
     private String abreviation;
 
     Navire(String abreviation) {
-        this.abreviation = abreviation;
-    }
-
-    public void setAbreviation(String abreviation) {
         this.abreviation = abreviation;
     }
 
