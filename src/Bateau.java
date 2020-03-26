@@ -1,12 +1,12 @@
 public class Bateau {
 
-    private String coordonnees[];
-    private String modele;
+    private String[] coordonnees;
+    private Navire modele;
     private String orientation;
 
-    public Bateau(String coordonnes, String modele, String orientation){
+    public Bateau(String coordonnes, Navire modele, String orientation){
         this.coordonnees = getCoordonnees();
-        this.modele = getModele();
+        this.modele = Navire.getAbreviation;
         this.orientation = getOrientation();
     }
 
