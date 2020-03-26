@@ -12,6 +12,14 @@ public class Coordonnees {
         return ordonnee;
     }
 
+    @Override
+    public String toString() {
+        return "Coordonnees{" +
+                "abscisse='" + abscisse + '\'' +
+                ", ordonnee=" + ordonnee +
+                '}';
+    }
+
     public void setOrdonnee(int ordonnee) {
         this.ordonnee = ordonnee;
     }

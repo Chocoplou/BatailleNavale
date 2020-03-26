@@ -1,16 +1,16 @@
 public enum Navire {
-    FREGATE("F"),
-    CROISEUR("C"),
-    DESTROYER("D"),
-    PORTE_AVION("PA");
+    FREGATE(1),
+    CROISEUR(2),
+    DESTROYER(3),
+    PORTE_AVION(4);
 
-    private String abreviation;
+    private int taille;
 
-    Navire(String abreviation) {
-        this.abreviation = abreviation;
+    Navire(int abreviation) {
+        this.taille = abreviation;
     }
 
-    public String getAbreviation() {
-        return abreviation;
+    public int getTaille() {
+        return taille;
     }
 }
