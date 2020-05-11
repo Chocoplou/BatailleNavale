@@ -6,8 +6,8 @@ public enum Navire {
 
     private int taille;
 
-    Navire(int abreviation) {
-        this.taille = abreviation;
+    Navire(int taille) {
+        this.taille = taille;
     }
 
     public int getTaille() {
